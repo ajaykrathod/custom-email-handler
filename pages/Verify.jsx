@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import Icon from '@mui/material/Icon'
 import {useRouter} from 'next/router'
 
-export default function verifyEmail() {
+export default function Verify() {
 	const router =useRouter()
 	return(
 		<div className={verifyEmaiStyles.fullScreen}>
