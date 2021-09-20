@@ -1,0 +1,215 @@
+@font-face{
+    font-family: 'JetBrains Mono';
+    src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.EditorWindow {
+    width: 99.5%;
+    height: 100vh;
+    margin-left: 0.5vh;
+    margin-right: 0.5vh;
+    border-radius: 10px;
+}
+
+.EditorHeader {
+    position: relative;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5vh;
+    border: 1px solid #404040;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.HeaderText {
+    width: 3vw;
+    height: 4vh;
+    cursor: default;
+
+    margin-left: 2vw;
+    font-family: Uchen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 5vh;
+
+}
+
+.EditorToolbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5vh;
+}
+
+.EditorAction {
+    flex-direction: row;
+    width: 23vw;
+    height: 5vh;
+    border: 1px solid #404040;
+    box-sizing: border-box;
+}
+
+.Icons8 {
+    margin-top: 0.6vh;
+    margin-left: 0.8vw;
+    width: 1.5vw;
+    height: 3.2vh;
+}
+
+.MenuVertical {
+    margin-top: 0.6vh;
+    margin-left: 0.9vw;
+    transform: rotate(-90deg);
+}
+
+.CloseIcon {
+    margin-top: 0.6vh;
+    margin-left: 1vw;
+    width: 1.5vw;
+    height: 3.2vh;
+}
+
+.EditorOpenFiles {
+    width: 78vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2vw;
+}
+
+.fileClose {
+    margin: 0 0 0.3vh 1vw;}
+
+.scrollFiles {
+    width: 2vw;
+    height: 5vh;
+    border-radius: 40;
+    
+}
+
+.openedEditors {
+    width: 65vw;
+    display: flex;
+    flex-direction: row;
+}
+.fileNameBox:hover {
+    cursor: default;
+}
+
+.fileName:hover {
+    cursor: default;
+}
+
+.openedFileCloseIcon {
+    width: 1vw;
+    margin-left: 2vw;
+}
+
+.openedFileCloseIcon:hover {
+    cursor: default;
+}
+
+.FloatingIcons {
+    width:11vw;
+}
+
+.FileAndEditor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 85vh;
+}
+
+.EditorFileStructure {
+    width: 22vw;
+    height: 85vh;
+    padding-top: 2vh;
+    border: 1px solid #404040;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.FileStructureList {
+    overflow: auto;
+    height: 100%;
+}
+
+.TopFolderListItem {
+    width: 5vw;
+}
+
+.FolderStructureIcon {
+    margin-top: 0.2vh;
+    margin-left: 0.5vw;
+}
+
+.FolderName {
+    width: 3vw;
+    height: 4vh;
+
+    margin-left: 0.5vw;
+    font-family: Uchen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 5vh;
+}
+
+.EditorToolTip {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5vh;
+
+    border: 1px solid #404040;
+    box-sizing: border-box;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.rightToolTip {
+    width: 77vw;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ToolTipComponent {
+    margin-right: 3vw;
+    font-family: Uchen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 5vh;
+}
+.ToolTipIcon {
+    margin-bottom: 0.3vw;
+    margin-right: 0.2vw;
+}
+
+.languageMenu {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.languageMenu:hover {
+    cursor: default;
+}
+
+.Editor {
+    height: 85vh;
+    border-left: 1px solid #404040;
+    border-right: 1px solid #404040;
+    border-bottom: 1px solid #404040;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.Edit *{
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono','Consolas','source-code-pro', monospace !important;
+}

@@ -1,0 +1,46 @@
+.fullScreen {
+	width: 100vw;
+	height: 100vh;
+	background: #F0F0F0;
+	max-width: 100vw;
+}
+
+.logoContainer {
+	text-align: center;
+	margin-left:auto ;
+	margin-right: auto;
+	padding-top: 5vh;
+}
+
+.container {
+	width: 70vw;
+	height: 60vh;
+	margin: 5vh auto 5vh auto;
+	background: white;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.containerTitle {
+	margin: 0 auto 2vh auto;
+	padding-top: 5vh;
+	font-size: x-large;
+	font-weight: bolder;
+	font-family: uchen;
+}
+
+.containerMessage {
+	flex-direction: column;
+}
+
+.verificationMessage {
+	max-width: 50vw;
+	word-wrap: break-word;
+	font-size: large;
+}
+
+.hey {
+	font-size: large;
+}

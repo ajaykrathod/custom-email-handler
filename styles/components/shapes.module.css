@@ -1,0 +1,49 @@
+.customshapedividertop1629479041 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.customshapedividertop1629479041 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 64px;
+}
+
+.customshapedividertop1629479041 .shapefill {
+    fill: #000000;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .customshapedividertop1629479041 svg {
+        width: calc(124% + 1.3px);
+        height: 36px;
+    }
+    .customshapedividertop1629479403 svg {
+        width: calc(124% + 1.3px);
+        height: 36px;
+    }
+}
+
+
+.customshapedividertop1629479403 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.customshapedividertop1629479403 svg {
+    position: relative;
+    display: block;
+    width: calc(121% + 1.3px);
+    height: 58px;
+}
+

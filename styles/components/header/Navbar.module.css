@@ -1,0 +1,102 @@
+.search {
+    display: flex;
+    padding-top: 10px;
+    width: 200px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .searchbox {
+    background: #94969b;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+  }
+  
+  .searchbox:hover > .searchtext,
+  .searchbox:focus > .searchtext,
+  .searchtext:focus {
+    width: 200px;
+    padding: 0 6px;
+    padding-left: 15px;
+  }
+  
+  .searchbox:hover > .searchbtn {
+    color: #fff;
+    background: transparent;
+  }
+  
+  
+  .searchbtn {
+    color: #fff !important;
+    float: right !important;
+    width: 40px !important;
+    height: 40px !important;
+    background: transparent !important;
+    padding: 7px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: 0.5s !important;
+    cursor: pointer !important;
+  }
+  
+  .searchtext {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.5s;
+    line-height: 40px;
+    width: 200px;
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .search {
+      display: flex;
+      padding-bottom: 20px;
+      padding-left: 90px;
+      justify-content: center;
+      align-items: center;
+    }
+    .searchtext {
+      width: 180px;
+      padding: 11px !important;
+    }
+    .links .search {
+      display: block;
+    }
+  }
+  
+  @media only screen and (max-width: 579px) {
+    .search {
+      display: flex;
+      padding-bottom: 20px;
+      padding-left: 90px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2px;
+    }
+    .searchtext {
+      width: 180px;
+    }
+    .searchbtn {
+        color: #000 !important;
+    }
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .searchtext {
+      width: 151px !important;
+    }
+  }
+
+.blur {
+  opacity: 0;
+}

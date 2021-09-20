@@ -1,0 +1,12 @@
+.learnHome {
+	height: 60vh;
+	width: 100%;
+	font-family: Uchen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.title {
+}
